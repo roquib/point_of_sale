@@ -1,0 +1,115 @@
+.fleft {
+    float: left;
+}
+
+.fright {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+hr {
+    border-top: none;
+    margin: 15px 0;
+}
+
+/*=====================Modal===================*/
+.mymodal {
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.8);
+    overflow-y: auto;
+}
+
+.modalContainer {
+    width: 70%;
+    max-width: 860px;
+    background: #fff;
+    margin: 99px auto;
+}
+
+.modalHeader {
+    min-height: 15px;
+    background: #e3e3e3;
+    font-size: 18px;
+    padding: 5px;
+}
+
+p.modalClose {
+    background: #e46a6a;
+    display: inline-block;
+    padding: 3px 7px;
+    color: #fff;
+    line-height: 15px;
+    font-size: 12px;
+    border-radius: 14px;
+    margin-top: 2px;
+    cursor: pointer;
+}
+
+p.modalClose:hover {
+    background: red;
+}
+
+.modalContent {
+    min-height: 88px;
+    background: #fff;
+    padding: 44px;
+}
+
+.modalFooter {
+    min-height: 45px;
+    background: #e3e3e3;
+    font-size: 22px;
+    padding: 11px;
+}
+
+.btnClose {
+    background: #f1d4d4;
+    display: inline-block;
+    padding: 5px 22px;
+    color: #c33a3a;
+    cursor: pointer;
+    border: 1px solid #c38c8c;
+}
+
+.btnClose:hover {
+    background: #c38c8c;
+    color: #fff;
+}
+
+.btnSave {
+    background: #2d7ce8;
+    color: #fff;
+    border: 1px solid #1c406f;
+    padding: 5px 13px;
+    cursor: pointer;
+}
+
+.btnSave:hover {
+    background: #1853a5;
+}
+
+textarea {
+    width: 333px;
+    min-height: 111px;
+}
+/*==================End Modal===================*/
+
+/* =============transition=======================*/
+.scale-enter-active,
+.scale-leave-active {
+    transition: all 0.25s;
+}
+.scale-enter,
+.scale-leave-to {
+    transform: scale(1.2);
+}
+
+/* ============= end transition=======================*/
