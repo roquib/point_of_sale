@@ -28,7 +28,7 @@
         "@fortawesome/fontawesome-free": "^5.8.2",
         "admin-lte": "^3.0.0-alpha.2",
         "element-ui": "^2.11.1",
-        "jspdf": "^1.5.3",
+        "jspdf": "^2.3.1",
         "laravel-vue-pagination": "^2.3.0",
         "moment": "^2.24.0",
         "pdfjs-dist": "^2.1.266",
