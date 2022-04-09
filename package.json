@@ -30,7 +30,7 @@
         "element-ui": "^2.11.1",
         "jspdf": "^1.5.3",
         "laravel-vue-pagination": "^2.3.0",
-        "moment": "^2.24.0",
+        "moment": "^2.29.2",
         "pdfjs-dist": "^2.1.266",
         "sweetalert2": "^8.11.4",
         "vform": "^1.0.0",
